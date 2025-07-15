@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercicio concatena&#231;&#227;o"/>
+        <attribute name="authors" value="Kaue"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-06-12 12:40:34 "/>
+        <attribute name="created" value="S2F1ZTtFTUU7MjAyNS0wNi0xMjsiMTE6Mzg6NTMgIjsxNzk5"/>
+        <attribute name="edited" value="S2F1ZTtFTUU7MjAyNS0wNi0xMjsiMTI6NDA6MzQgIjsxOzE5MDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome" type="String" array="False" size=""/>
+            <declare name="idade, nota1, nota2, nota3, nota4, media" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual &#233; o seu nome?&quot;" newline="True"/>
+            <input variable="Nome"/>
+            <output expression="&quot;Qual &#233; seu sobrenome?&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Qual &#233; a sua idade?&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Qual foi sua nota no primeiro bimestre?&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Qual foi sua nota no segundo bimestre?&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Qual foi sua nota no terceiro bimestre?&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Qual foi sua nota no quarto bimestre?&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;O seu nome &#233; &quot; &amp; nome &amp; &quot; e o seu sobrenome &#233; &quot; &amp; sobrenome &amp; &quot; a sua idade &#233; &quot; &amp; idade &amp; &quot; sua m&#233;dia de nota foi &quot; &amp; media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; foi aprovado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente voc&#234; foi reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

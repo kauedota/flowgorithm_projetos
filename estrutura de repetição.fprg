@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="estrutura de repeti&#231;&#227;o"/>
+        <attribute name="authors" value="Kaue"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-06-12 12:55:08 "/>
+        <attribute name="created" value="S2F1ZTtFTUU7MjAyNS0wNi0xMjsiMTI6NDY6MTQgIjsxNzk2"/>
+        <attribute name="edited" value="S2F1ZTtFTUU7MjAyNS0wNi0xMjsiMTI6NTU6MDggIjsxOzE5MDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="1"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="numero&lt;=limite">
+                <output expression="&quot;Contagem atual: &quot; &amp; numero" newline="True"/>
+                <assign variable="numero" expression="numero+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

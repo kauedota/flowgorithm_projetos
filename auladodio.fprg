@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="auladodio"/>
+        <attribute name="authors" value="Kaue"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-06-05 03:28:31 "/>
+        <attribute name="created" value="S2F1ZTtFTUU7MjAyNS0wNi0wNTsiMDM6MTg6MTAgIjsxNzkz"/>
+        <attribute name="edited" value="S2F1ZTtFTUU7MjAyNS0wNi0wNTsiMDM6Mjg6MzEgIjsxOzE5MDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, valortotal" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+            <assign variable="valortotal" expression="(nota1+nota2+nota3+nota4)"/>
+            <output expression="valortotal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
