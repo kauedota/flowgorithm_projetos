@@ -1,0 +1,12 @@
+# Ignorar arquivos temporários do sistema
+*.tmp
+*.bak
+*.log
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de sistema do VS Code
+.vscode/
+
+# Ignorar arquivos desnecessários do Windows
+desktop.ini
